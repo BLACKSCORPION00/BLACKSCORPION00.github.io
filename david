@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fffdfd;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 35px;
+  color: #323232;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #ff0000;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #ffffff;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidebar" class="sidebar">
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)" class="closeb
+  tn" onclick="closeNav()">×</a></br>
+  <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+  <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Services&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+  <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+  <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ </button>
+  <P>
+            <style>
+                #head{
+                    text-align: left;
+                    font-family: 'Arial Narrow Bold';
+                    background-color: rgb(0, 0, 0);
+                    font-style:bold; color:rgb(255, 255, 255);
+                    size: 100px;
+                    }
+                #body{
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    color: #ff0000;
+                    font-size: 85px;
+                    text-align: center;
+                }
+                #h5{
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: rgb(255, 255, 255);
+                    size: 15;
+                    text-align: right;
+                    
+                }
+       
+    </style>
+    
+    <body id="head" bgcolor="white">
+    
+                <h1 id="body" ><p style=background-color:black>DUNGEONS AND DRAGON</font></p></h1> 
+               <STYLE>div {background-image: url('wallpaperflare.com_wallpaper.jpg');}
+    
+    
+    div a {
+    
+      text-decoration: none;
+    
+      color: white;
+    
+      font-size: 20px;
+    
+      padding: 15px;
+    
+      display:inline-block;
+      text-align: right;
+    
+    }
+    
+    ul {
+    
+      display: inline;
+    
+      margin: 0;
+    
+      padding: 0;
+    
+    }
+    
+    ul li {display: inline-block;}
+    
+    ul li:hover {background: #555;}
+    
+    ul li:hover ul {display: block;}
+    
+    ul li ul {
+    
+      position: absolute;
+    
+      width: 200px;
+    
+      display: none;
+    
+    }
+    
+    ul li ul li { 
+    
+      background: #555; 
+    
+      display: block; 
+    
+    }
+    
+    ul li ul li a {display:block !important;} 
+    
+    ul li ul li:hover {background: #666;}
+    
+    </style>
+    
+    </head>
+    
+    <body>
+    
+    ​
+    
+    <h2 id="h5" text align="right"><div>
+    
+      <a href="8.HTML" target="_blank">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="4.html">GALLERY</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    
+    
+      <ul>
+    
+        <li>
+    
+          <a href="#">INFORMATION </a> 
+          
+          <ul>
+    
+          <li><a href="6.html">CONTACT US</a></li>
+          <li><a href="3.html">ABOUT US</a></li>
+          <li><a href="4.html">GALLERY</a></li></h2>
+    
+    
+          </ul>
+    
+        </li>
+    
+      </ul>
+    
+    </div>
+    
+    ​
+    
+    
+    </style>
+    <style>
+    a:link {
+            color: rgb(198, 223, 54);
+            background-color: transparent;
+            text-decoration: none;
+    }
+    a:visited {
+                color: rgb(0, 0, 0);
+                background-color: transparent;
+                text-decoration: none;
+    }
+    a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+    }
+    a:active {
+            color: rgb(0, 204, 255);
+            background-color: transparent;
+            text-decoration: underline;
+    }
+    .flex-container {
+                display: flex;
+                flex-direction: column-reverse;
+                background-color: rgb(255, 0, 0);
+                align-items: center;
+    }
+    .flex-container > div {
+                background-color: #443333;
+                width: 10px;
+                margin: 5px;
+                text-align: center;
+                line-height: 30px;
+                font-size: 30px;
+    }
+    </style><div class="flex-container"><p>
+      <a target="_blank" href="DA.jpg"><img style="border:2cqb; border-style:double;"  src="DA.jpg"  height="200"></a>
+      <a  href="DAA.jpg"><img style="border:2cqb; border-style:double;" src="DAA.jpg"  height="200"></a>
+      <a href="dc.jpg"><img style="border:2cqb; border-style:double;" src="dc.jpg"  height="200"></a> 
+      <a  href="images.jpg"><img style="border:2cqb; border-style:double;" src="images.jpg"  height="200"></a> 
+      <a  href="WQ.jpg"><img style="border:2cqb; border-style:double;" src="WQ.jpg"  height="200"></a></p>
+  </div>
+    <h3 id="h5"><form action="/action_page.php">
+      <div class="flex-container" group="horizontal"><p> REGISTER OR LOGIN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</BR></BR><label for="username">USERNAME:</label>
+        <input type="text" id="username" name="username"><br>
+        <label for="pwd">PASSWORD:</label>
+        <input type="password" id="pwd" name="pwd"><br><br>
+         <input type="submit" value="Submit">
+        <style>
+        a:link, a:visited {
+          background-color: rgb(255, 255, 255);
+          color: rgb(0, 0, 0);
+          padding: 5px 5px;
+          text-align: RIGHT;
+          text-decoration: none;
+          display:inline-flex;
+          size: 1px;
+        }
+        
+        a:hover, a:active {
+          background-color:rgb(255, 166, 0);
+        }
+        </style>
+        
+       
+    
+    <body font style= "font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><p id="demo" align="center" style="font-size: x-large; color : #ffd1d1;"><q> A typical Dungeons & Dragons game consists of an "adventure", which is roughly equivalent to a single story.[54] The DM can either design an original adventure, or follow one of the many pre-made adventures (also known as "modules")
+      that have been published throughout the history of Dungeons & Dragons. Published adventures typically include a background story, illustrations, maps and goals for PCs to achieve. Some include location descriptions and handouts. Although a small adventure entitled "Temple of the Frog" was included in the Blackmoor rules supplement in 1975,
+      the first stand-alone D&D module published by TSR was 1978's Steading of the Hill Giant Chief, written by Gygax.
+    
+      A linked series of adventures is commonly referred to as a "campaign".[55] The locations where these adventures occur, such as a city, country, planet or an entire fictional universe, are referred to as "campaign settings" or "world".[56] D&D settings are based in various fantasy genres and feature different levels and types of magic and technology.[57]
+      Popular commercially published campaign settings for Dungeons & Dragons include Greyhawk, Dragonlance, Forgotten Realms, Mystara, Spelljammer, Ravenloft, Dark Sun, Planescape, Birthright, and Eberron.
+                
+      In addition to first-party campaigns and modules, two campaigns based on popular culture have been created. The first, based on Stranger Things, was released in May 2019.[58][59] A campaign based on the Rick and Morty vs. Dungeons and Dragons comic book series was later released in November 2019</q></p> 
+      <script>
+        function myFunction() { 
+          document.getElementById("demo").style.color = "red";
+          document.getElementById("demo").style.backgroundColor = "yellow";        
+        }
+        </script>
+        
+        <button type="button" onclick="myFunction()">red/yellow</button>
+        <script>
+        function hiFunction() {
+          document.getElementById("demo").style.color = "black";
+          document.getElementById("demo").style.backgroundColor = "white";        
+        }
+        </script>
+        <button type="button" onclick="hiFunction()">black/white</button>                 
+        <p>
+      <h2 id="demo" align="center"style="background-image: url('wallpaperflare.com_wallpaper.jpg');">An immediate predecessor of Dungeons & Dragons was a set of medieval miniature rules written by Jeff Perren. These were expanded by Gary Gygax, whose additions included a fantasy supplement, before the game was published as Chainmail.
+       When Dave Wesely entered the Army in 1970, his friend and fellow Napoleonics wargamer Dave Arneson began a medieval variation of Wesely's Braunstein games, where players control individuals instead of armies.[69] Arneson used Chainmail to resolve combat.[6] As play progressed, Arneson added such innovations as character classes, experience points, level advancement, armor class, and others.[69]
+      Having partnered previously with Gygax on Don't Give Up the Ship!, Arneson introduced Gygax to his Blackmoor game and the two then collaborated on developing "The Fantasy Game", the game that became Dungeons & Dragons, with the final writing and preparation of the text being done by Gygax.[70][71][72] The name was chosen by Gygax's two-year-old daughter Cindy;
+      upon being presented with a number of choices of possible names, she exclaimed, "Oh Daddy, I like Dungeons & Dragons best!", although less prevalent versions of the story gave credit to his then wife Mary Jo </body></p></h2>
+      <h2><marquee>DRAGON AND DUNGEUON</marquee></h2>
+      <body font style= "font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><p id="demo" align="center" style="font-size: x-large; color : #ffd1d1;">The world of D&D was influenced by world mythology, history, pulp fiction, and contemporary fantasy novels. The importance of J. R. R. Tolkien's The Lord of the Rings and The Hobbit as an influence on D&D is controversial.
+      The presence in the game of halflings, elves, half-elves, dwarves, orcs, rangers, and the like, as well as the convention of diverse adventurers forming a group,[76] draw comparisons to these works. The resemblance was even closer before the threat of copyright action from Tolkien Enterprises prompted the name changes of hobbit to 'halfling', ent to 'treant', and balrog to 'balor'.
+      For many years, Gygax played down the influence of Tolkien on the development of the game.[77][78][79] However, in an interview in 2000, he acknowledged that Tolkien's work had a "strong impact" though he also said that the list of other influential authors was long.</p> 
+                    
+      <p id="demo" align="center" style="font-size: x-large;color: #ffd1d1;" >
+      During the game, players describe their PCs' intended actions to the DM, who then describes the result or response.[37] Trivial actions, such as picking up a letter or opening an unlocked door, are usually automatically successful.
+      The outcomes of more complex or risky actions, such as scaling a cliff or picking a lock, are determined by rolling dice.[38] Different polyhedral dice are used for different actions, such as a twenty-sided die to see whether a hit was made in combat, but an eight-sided die to determine how much damage was dealt.[39]
+       Factors contributing to the outcome include the character's ability scores, skills, and the difficulty of the task.[40] In circumstances where a character is attempting to avoid a negative outcome, such as when dodging a trap or resisting the effect of a spell, a saving throw can be used to determine whether the resulting effect is reduced or avoided</blockquote></h5></p></div>
+      <marquee>DRAGON AND DUNGEUON</marquee> </p>
+      <!DOCTYPE html>
+      <html>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      body {
+        font-family: Arial;
+        margin: 0;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      img {
+        vertical-align: middle;
+      }
+      
+      /* Position the image container (needed to position the left and right arrows) */
+      .container {
+        position: relative;
+      }
+      
+      /* Hide the images by default */
+      .mySlides {
+        display: none;
+      }
+      
+      /* Add a pointer when hovering over the thumbnail images */
+      .cursor {
+        cursor: pointer;
+      }
+      
+      /* Next & previous buttons */
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover,
+      .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      /* Container for image text */
+      .caption-container {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 16px;
+        color: white;
+      }
+      
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Six columns side by side */
+      .column {
+        float: left;
+        width: 13;
+      }
+      
+      /* Add a transparency effect for thumnbail images */
+      .demo {
+        opacity: 0.6;
+      }
+      
+      .active,
+      .demo:hover {
+        opacity: 1;
+      }
+      </style>
+      <body>
+      
+      
+      <div class="container">
+        <div class="mySlides">
+          <div class="numbertext">1 / 6</div>
+          <img src="img_woods_wide.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">2 / 6</div>
+          <img src="img_5terre_wide.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+          <img src="img_mountains_wide.jpg" style="width:100%">
+        </div>
+          
+        <div class="mySlides">
+          <div class="numbertext">4 / 6</div>
+          <img src="img_lights_wide.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">5 / 6</div>
+          <img src="img_nature_wide.jpg" style="width:100%">
+        </div>
+          
+        <div class="mySlides">
+          <div class="numbertext">6 / 6</div>
+          <img src="img_snow_wide.jpg" style="width:100%">
+        </div>
+          
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor"  style="width:100%" onclick="currentSlide(1)" >
+          </div>
+          <div class="column">
+            <img class="demo cursor"style="width:100%" onclick="currentSlide(2)">
+          </div>
+          <div class="column">
+            <img class="demo cursor" style="width:100%" onclick="currentSlide(3)" a>
+          </div>
+          <div class="column">
+            <img class="demo cursor"style="width:100%" onclick="currentSlide(4)">
+          </div>
+          <div class="column">
+            <img class="demo cursor"  style="width:100%" onclick="currentSlide(5)">
+          </div>    
+          <div class="column">
+            <img class="demo cursor" style="width:100%" onclick="currentSlide(6)">
+          </div>
+        </div>
+      </div>
+      
+      <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("demo");
+        let captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+      }
+      </script>
+          
+      </body>
+      </html>
+      
+          </body>
+          </html></P> 
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>
+</html> 
